@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -R $VARIABLE
+set -o posix | set
