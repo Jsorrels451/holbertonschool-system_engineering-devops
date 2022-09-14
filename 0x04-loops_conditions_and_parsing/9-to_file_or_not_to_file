@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# file or not ot file
+# files
 
 file="school"
 if [ -e "$file" ]; then
     echo "$file file exsists"
     if [ -s "$file" ]; then
-	echo "$file file is not empty"
+	echo "$file is not empty"
     else
 	echo "$file file is empty"
     fi
