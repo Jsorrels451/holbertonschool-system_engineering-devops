@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# file or not ot file
+
+file="$(ls)"
+for f in $files;
+do
+echo "$f" | cut -d "-" -f2
+done
