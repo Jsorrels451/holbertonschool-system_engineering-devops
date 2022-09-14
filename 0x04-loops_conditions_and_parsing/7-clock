@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
-#the clock
+# clock
 
-x=0
-while [ "$x" -le 12 ]
+h=0
+while [ "$h" -le 12 ]
 do
-	echo "Hour: $x"
-	(( x++ ))
+    echo "Hour: $h"
+    (( h++ ))
 
-	y=1
-	while [ "$x" -le 59 ]
-	do
-		echo "$y"
-		(( y++ ))
-	done
+    m=1
+    while [ "$h" -le 59 ]
+    do
+	echo "$m"
+	(( m++ ))
+    done
 done
